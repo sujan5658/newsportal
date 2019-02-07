@@ -25,7 +25,7 @@
 <div class="row">
     <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
         <div class="login-panel panel panel-default">
-            <div class="panel-heading">Administrator
+            <div class="panel-heading">व्यवस्थापक
                 <?php
                         @session_start();
                         if(isset($_SESSION['admin'])){
@@ -36,8 +36,8 @@
             </div>
             <div class="panel-body">
                 <center><img src="image/admin.png"></center>
-                <h5>Admin account locked due to Multiple invalid access.</h5>
-                <a href="forget_pass.php" style="text-decoration: none"><i>Forget Password ?</i></a>
+                <h5>एकाधिक अमान्य पहुँचको कारण व्यवस्थापक खाता लक गरियो।</h5>
+                <a href="forget_pass.php" style="text-decoration: none"><i>पासवर्ड बिर्सनुभयो?</i></a>
             </div>
         </div>
     </div><!-- /.col-->
