@@ -16,7 +16,7 @@
 	<div class="row">
 		<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
 			<div class="login-panel panel panel-default">
-				<div class="panel-heading">Administrator
+				<div class="panel-heading">व्यवस्थापक
                     <?php
                         session_start();
                         require_once ("class/lock_admin.php");
@@ -36,13 +36,13 @@
 					<form role="form" method="post" action="process/admin-login.php">
 						<fieldset>
 							<div class="form-group">
-								<input class="form-control" placeholder="E-mail or User name" name="email" type="text" required>
+								<input class="form-control" placeholder="ईमेल वा प्रयोगकर्ताको नाम" name="email" type="text" required>
 							</div>
 							<div class="form-group">
 								<input class="form-control" placeholder="Password" name="pass" type="password" required>
 							</div>
-                            <a href="forget_pass.php" style="text-decoration: none"><i>Forget Password ?</i></a>
-							<button style="float: right;" type="submit" name="login" class="btn btn-primary">Login</button>
+                            <a href="forget_pass.php" style="text-decoration: none"><i>पासवर्ड बिर्सनुभयो?</i></a>
+							<button style="float: right;" type="submit" name="login" class="btn btn-primary">लगइन</button>
 						</fieldset>
 					</form>
 				</div>
