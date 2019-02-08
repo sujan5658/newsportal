@@ -12,8 +12,8 @@
         public function __construct(){
             $con = new connection();
             $con ->db_connect();
-            $this->from = "computer2073.2016@gmail.com";
-            $this->password = "Dangerous@#$5658";
+            $this->from = "your email";
+            $this->password = "your password";
         }
         private function send_mail(){
             $mail = new \PHPMailer\PHPMailer\PHPMailer();
