@@ -15,9 +15,9 @@
             $mail->SMTPSecure = "tls";
             $mail->Host = "smtp.gmail.com";
             $mail->Port = 587;
-            $mail->Username = "computer2073.2016@gmail.com";
-            $mail->Password = "Dangerous@#$5658";
-            $mail->setFrom("computer2073.2016@gmail.com");
+            $mail->Username = "your gmail";
+            $mail->Password = "your password";
+            $mail->setFrom("your gmail");
             $mail->Subject = "Verification Code";
             $mail->Body = " Your email verification code is ".$_SESSION['validate_code'];
             $mail->addAddress($this->email);
